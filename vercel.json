@@ -1,4 +1,5 @@
 {
+  "buildCommand": null,
   "rewrites": [
     { "source": "/v1/mailroom/actions", "destination": "/api" },
     { "source": "/mailroom", "destination": "/api" },
