@@ -1,7 +1,8 @@
 {
-  "version": 2,
-  "buildCommand": "",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index.js" }
+    { "source": "/v1/mailroom/actions", "destination": "/api" },
+    { "source": "/mailroom", "destination": "/api" },
+    { "source": "/q9/mailroom", "destination": "/api" },
+    { "source": "/", "destination": "/api" }
   ]
 }
